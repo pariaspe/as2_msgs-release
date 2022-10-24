@@ -1,0 +1,11 @@
+# SERVICE TYPE: PackagePickUp
+# ------------------------------------------------------------------------------
+# This service send command to start package pickup
+
+bool enable
+geometry_msgs/Twist speed_limit
+
+
+---
+bool success              # whether the package pickup could be started or not
+# ------------------------------------------------------------------------------

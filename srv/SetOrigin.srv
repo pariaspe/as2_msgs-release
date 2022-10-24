@@ -1,0 +1,9 @@
+# SERVICE TYPE: SetOrigin
+# ------------------------------------------------------------------------------
+# This service sends a origin (lat, lon, alt) to set
+
+geographic_msgs/GeoPoint origin
+
+---
+bool success              # whether the origin has been set or not
+# ------------------------------------------------------------------------------

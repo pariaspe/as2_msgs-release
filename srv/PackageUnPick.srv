@@ -1,0 +1,11 @@
+# SERVICE TYPE: PackageUnPick
+# ------------------------------------------------------------------------------
+# This service send command to start package unpick
+
+bool enable
+geometry_msgs/Twist speed_limit
+
+
+---
+bool success              # whether the package unpick could be started or not
+# ------------------------------------------------------------------------------

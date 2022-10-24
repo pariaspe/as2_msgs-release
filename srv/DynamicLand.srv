@@ -1,0 +1,11 @@
+# SERVICE TYPE: DynamicLand
+# ------------------------------------------------------------------------------
+# This service send command to start dynamic land
+
+bool enable
+geometry_msgs/Twist speed_limit
+
+
+---
+bool success              # whether the dynamic land could be started or not
+# ------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+# Request
+geometry_msgs/Pose target_pose # in meters
+float32 max_speed # in m/s
+bool ignore_pose_yaw
+
+uint8 KEEP_YAW             = 0
+uint8 PATH_FACING          = 1
+uint8 FIXED_YAW            = 2
+
+uint8 yaw_mode_flag
+
+float32 yaw_angle
+---
+# Result
+bool goto_success # false if failed to takeoff
+---
+# Feedback
+float32 actual_speed # m/s
+float32 actual_distance_to_goal # in meters

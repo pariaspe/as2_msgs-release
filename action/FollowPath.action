@@ -1,0 +1,11 @@
+# Request
+as2_msgs/TrajectoryWaypoints trajectory_waypoints # in meters
+---
+# Result
+bool follow_path_success # false if failed to follow_path
+---
+# Feedback
+float32 actual_speed # m/s
+geometry_msgs/Point next_waypoint
+uint16 remaining_waypoints
+float32 actual_distance_to_next_waypoint # in meters

@@ -1,0 +1,10 @@
+# Request
+float32 takeoff_height # in meters
+float32 takeoff_speed # m/s 
+---
+# Result
+bool takeoff_success # false if failed to takeoff
+---
+# Feedback
+float32 actual_takeoff_speed # m/s
+float32 actual_takeoff_height # in meters

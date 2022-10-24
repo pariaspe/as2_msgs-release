@@ -1,0 +1,11 @@
+# SERVICE TYPE: DynamicFollower
+# ------------------------------------------------------------------------------
+# This service send command to start dynamic follower
+
+bool enable
+geometry_msgs/Twist speed_limit
+
+
+---
+bool success              # whether the dynamic follower could be started or not
+# ------------------------------------------------------------------------------

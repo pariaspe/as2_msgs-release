@@ -1,0 +1,9 @@
+# Request
+float32 land_speed # m/s 
+---
+# Result
+bool land_success # false if failed to land
+---
+# Feedback
+float32 actual_land_speed # m/s
+float32 actual_land_height # in meters

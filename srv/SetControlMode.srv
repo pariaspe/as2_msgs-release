@@ -1,0 +1,9 @@
+# SERVICE TYPE: SetPlatformControlMode
+# ------------------------------------------------------------------------------
+# This service adds a belief expression to the belief memory
+
+as2_msgs/ControlMode control_mode
+
+---
+bool success              # whether the belief has been added successfully or not
+# ------------------------------------------------------------------------------

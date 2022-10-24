@@ -1,0 +1,9 @@
+# SERVICE TYPE: SetTrajectoryWaypoints
+# ------------------------------------------------------------------------------
+# This service sends a set of waypoints to generate a trajectory
+
+as2_msgs/TrajectoryWaypointsWithID waypoints
+
+---
+bool success              # whether the waypoints has been added successfully or not
+# ------------------------------------------------------------------------------
